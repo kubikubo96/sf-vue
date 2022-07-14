@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 
 Vue.use(VueRouter)
 
+import LearnBasic from './module/LearnBasic/LearnBasic'
 import HomePage from './views/HomePage'
 
 const router = new VueRouter({
@@ -11,6 +12,11 @@ const router = new VueRouter({
       path: '/',
       name: 'home',
       component: HomePage,
+    },
+    {
+      path: '/learn',
+      name: 'learn',
+      component: LearnBasic,
     },
   ],
 })
