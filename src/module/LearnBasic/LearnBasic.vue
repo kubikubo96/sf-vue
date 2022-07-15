@@ -126,6 +126,7 @@ export default {
   },
   mounted() {
     // Được gọi khi tiến trình render lần đầu hoàn tất.
+    // thường dùng để gọi API lấy dữ liệu từ server mà xử lý đến DOM thật
     console.log('HERE')
   },
   beforeUpdate: {
